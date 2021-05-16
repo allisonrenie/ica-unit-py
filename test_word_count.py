@@ -15,4 +15,6 @@ def test_word_count2():
 class test_class(unittest.TestCase):
     def test_count_words3(self):
         self.assertEqual(word_count.count_words('ikea shark'), 2)
+        
+    def test_count_words4(self):
         self.assertEqual(word_count.count_words('   paradise lost by john milton     '), 5)
