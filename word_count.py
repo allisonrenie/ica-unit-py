@@ -1,4 +1,5 @@
 def count_words(sentence):
+    sentence = sentence.strip()
     words = 0
     for x in sentence:
         if x == " ":
@@ -8,4 +9,4 @@ def count_words(sentence):
 
 sentence = str(input("Please enter a sentence: "))
 words = count_words(sentence)
-print("Your sentence has " + words + "words.")
+print("Your sentence has " + str(words) + " words.")
